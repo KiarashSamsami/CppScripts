@@ -42,7 +42,6 @@ public:
         res1.minNumCandy =  accumulate(candyNums.begin(), candyNums.end(), 0) ;
         res1.candyNumsVec = candyNums ; 
         return res1 ; 
-        // return accumulate(candyNums.begin(), candyNums.end(), 0) ; 
 
         
     }
